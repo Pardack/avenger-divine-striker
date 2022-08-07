@@ -1,0 +1,81 @@
+	{
+		"name": "avenger-divine-striker",
+		"title": "Avenger: The Divine Striker",
+		"description": "The Avenger class, as written by Fanatic66 in the supplement 'Avenger - The Divine Striker'.",
+		"version": "0.9",
+		"author": "Pardack",
+		"flags": {
+			"avenger-divine-striker": {
+				"pf2e-homebrew": {
+					"featTraits": {
+						"avenger": {
+							"label": "Avenger",
+							"description": "This indicates abilities from the Avenger class."
+						}
+					},
+					"spellTraits": {
+						"avenger": {
+							"label": "Avenger",
+							"description": "This indicates abilities from the Avenger class."
+						}
+					}
+				}
+			}
+		},
+		"packs": [{
+				"label": "Avenger Actions",
+				"type": "Item",
+				"name": "avenger-actions",
+				"path": "./packs/avenger-actions.db",
+				"system": "pf2e",
+				"package": "avenger-divine-striker",
+				"private": false
+			},
+			{
+				"label": "Avenger Class and Archetype",
+				"type": "Item",
+				"name": "avenger-class-and-archetype",
+				"path": "./packs/avenger-class-and-archetype.db",
+				"system": "pf2e",
+				"package": "avenger-divine-striker",
+				"private": false
+			},
+			{
+				"label": "Avenger Effects",
+				"type": "Item",
+				"name": "avenger-effects",
+				"path": "./packs/avenger-effects.db",
+				"system": "pf2e",
+				"package": "avenger-divine-striker",
+				"private": false
+			},
+			{
+				"label": "Avenger Feats and Features",
+				"type": "Item",
+				"name": "avenger-feats-and-features",
+				"path": "./packs/avenger-feats-and-features.db",
+				"system": "pf2e",
+				"package": "avenger-divine-striker",
+				"private": false
+			},
+			{
+				"label": "Avenger Spells",
+				"type": "Item",
+				"name": "avenger-spells",
+				"path": "./packs/avenger-spells.db",
+				"system": "pf2e",
+				"package": "avenger-divine-striker",
+				"private": false
+			}
+		],
+		"esmodules": [],
+		"styles": [],
+		"socket": false,
+		"system": [
+			"pf2e"
+		],
+		"minimumCoreVersion": "0.9",
+		"compatibleCoreVersion": "0.9.269",
+		"minimumSystemVersion": "3.13.5.16"
+
+	}
